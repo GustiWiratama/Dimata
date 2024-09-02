@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap");
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6em;
+  background-color: var(--Yellow);
+}
+* body .main-card-container {
+  font-family: figtree;
+  background-color: var(--White);
+  padding: 1.5em;
+  border: 2px solid var(--Gray-950);
+  border-radius: 20px;
+  box-shadow: 10px 10px 0 0 var(--Gray-950);
+  margin-bottom: 20px;
+}
+* body .main-card-container .image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .main-card-container .image img {
+  border-radius: 10px;
+}
+* body .main-card-container .status {
+  background-color: var(--Yellow);
+  border-radius: 5px;
+  font-size: 15 px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 7px;
+  margin: 20px 20px 20px 0px;
+}
+* body .main-card-container .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+* body .main-card-container .title:hover {
+  cursor: pointer;
+  color: var(--Yellow);
+  transition: all ease-in-out 0.2s;
+}
+* body .main-card-container .desc {
+  color: var(--Gray-500);
+  margin-bottom: 20px;
+}
+* body .main-card-container .profile {
+  display: flex;
+  align-items: center;
+}
+* body .main-card-container .profile img {
+  height: 40px;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */

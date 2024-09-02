@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-bar.sticky {
+  box-shadow: 0px 4px 10px 0 rgb(89, 89, 89);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Nunito Sans;
+
+  font-size: 3em;
+  img {
+    margin-bottom: 11px;
+  }
+}
+
+.search {
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.content {
+  font-family: Overpass;
+  padding: 20px;
+}
+
+.intro {
+  margin-top: 6em;
+  margin-left: 4em;
+  font-size: 1.7em;
+  margin-bottom: 200px;
+  max-width: 20em;
+}
+
+.halo {
+  font-size: 4em;
+}
+
+.halo-desc {
+  /* background-color: red; */
+  max-width: 20em;
+}
+
+.item-section {
+  margin-top: 25em;
+  display: flex;
+  flex-direction: row;
+}
+.card-item {
+  /* display: flex; */
+  padding: 15px;
+  width: fit-content;
+  background-color: gray;
+  /* flex-direction: row; */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.img-slider {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: none; */
+}
+
+#carouselExampleCaptions {
+  scale: 0.8;
+}
+
+@media screen and (max-width: 650px) {
+  .intro {
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .halo {
+    font-size: 2em;
+  }
+}

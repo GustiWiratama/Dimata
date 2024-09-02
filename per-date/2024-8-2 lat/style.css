@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 93vh;
+}
+
+.container {
+  font-family: Overpass;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.main-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.hide-main {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.cihuy {
+  margin-bottom: 20px;
+}
+
+.cihuy-btn {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cihuy-btn:hover {
+  scale: 1.2;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  color: white;
+  background-color: crimson;
+}
+
+img {
+  height: 30em;
+  margin-bottom: 40px;
+}
+
+.back {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.back:hover {
+  scale: 1.2;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  color: white;
+  background-color: crimson;
+}
